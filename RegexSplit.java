@@ -1,4 +1,4 @@
-package com.kronae.encrypt.enb64.util;
+package com.kronae.encrypt.util;
 
 import java.util.ArrayList;
 import java.util.List;
