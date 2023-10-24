@@ -21,7 +21,7 @@ public class B64 { // Base64
     }
     @Contract("_ -> new")
     public static @NotNull String @NotNull [] decode(@NotNull String base64s) {
-        String[] base64 = RegexSplit.split(base64s, regex);
+        String[] base64 = split(base64s);
         String[] decoded = new String[base64.length];
         for (int i = 0; i < base64.length; i++)
             decoded[0] = decodeOne(base64[0]);
@@ -31,5 +31,8 @@ public class B64 { // Base64
     public static @NotNull String decodeOne(@NotNull String base64) {
         if(decoder == null) decoder = Base64.getDecoder();
         return new String(decoder.decode(base64.getBytes(StandardCharsets.UTF_8)));
+    }
+    public static String @NotNull [] split(String base64s) {
+        return RegexSplit.split(base64s, regex);
     }
 }
