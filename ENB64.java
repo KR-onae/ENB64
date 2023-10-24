@@ -3,6 +3,10 @@ package com.kronae.encrypt.enb64;
 import com.kronae.encrypt.enb64.exception.DataTooLotException;
 import com.kronae.encrypt.enb64.util.RegexSplit;
 
+// IntelliJ
+import org.jetbrains.annotations.Contract;
+import org.jetbrains.annotations.NotNull;
+
 public class ENB64 extends Encrypter { // Encrypt aNd Base64 encrypting system
     private final char[] key;
 
