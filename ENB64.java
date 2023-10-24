@@ -8,6 +8,10 @@ import com.kronae.encode.B64;
 import org.jetbrains.annotations.Contract;
 import org.jetbrains.annotations.NotNull;
 
+/*
+    * WARNING) ENB64 has a critical problem.
+ */
+
 public class ENB64 { // Encrypt aNd Base64 encrypting system
     private final char[] key;
 
