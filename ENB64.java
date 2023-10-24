@@ -7,7 +7,7 @@ import com.kronae.encrypt.enb64.util.RegexSplit;
 import org.jetbrains.annotations.Contract;
 import org.jetbrains.annotations.NotNull;
 
-public class ENB64 extends Encrypter { // Encrypt aNd Base64 encrypting system
+public class ENB64 { // Encrypt aNd Base64 encrypting system
     private final char[] key;
 
     public ENB64(@NotNull String key) {
