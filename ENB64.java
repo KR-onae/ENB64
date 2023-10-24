@@ -2,6 +2,7 @@ package com.kronae.encrypt.enb64;
 
 import com.kronae.encrypt.enb64.exception.DataTooLotException;
 import com.kronae.encrypt.enb64.util.RegexSplit;
+import com.kronae.encode.B64;
 
 // IntelliJ
 import org.jetbrains.annotations.Contract;
