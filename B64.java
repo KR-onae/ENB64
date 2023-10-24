@@ -1,4 +1,4 @@
-package com.kronae.encrypt;
+package com.kronae.encode;
 
 import com.kronae.encrypt.util.RegexSplit;
 
