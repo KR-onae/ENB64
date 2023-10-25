@@ -1,4 +1,4 @@
-package com.kronae.encrypt.enb64.exception;
+package com.kronae.exception;
 
 public class DataTooLotException extends RuntimeException {
     public DataTooLotException() {
