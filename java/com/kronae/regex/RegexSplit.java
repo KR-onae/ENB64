@@ -1,4 +1,4 @@
-package com.kronae.encrypt.util;
+package com.kronae.regex;
 
 import java.util.ArrayList;
 import java.util.List;
