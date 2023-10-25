@@ -3,6 +3,7 @@ package com.kronae.encrypt.enb64;
 import com.kronae.encrypt.exception.DataTooLotException;
 import com.kronae.encrypt.util.RandomString;
 import com.kronae.encrypt.util.RegexSplit;
+import com.kronae.encrypter.Encrypter;
 
 import org.jetbrains.annotations.Contract;
 import org.jetbrains.annotations.NotNull;
